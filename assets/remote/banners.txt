@@ -1,0 +1,3 @@
+empresa_a.webp|12
+empresa_b.webp|15
+empresa_c.webp|60
