@@ -1,0 +1,5 @@
+empresa_a.webp|https://cliente.com
+
+empresa_b.webp|null
+
+empresa_c.webp|https://instagram.com/empresa
