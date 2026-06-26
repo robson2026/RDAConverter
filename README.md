@@ -1,126 +1,216 @@
-RDAConverter
+# RDAConverter
 
-«Modern multimedia converter for Android.
-Developed by RDA Software.»
+**Conversor multimídia moderno para Android.**
 
----
-
-Overview
-
-RDAConverter is a modern Android application developed in Kotlin and Jetpack Compose, designed to convert images, videos, audio files and documents with high performance, low memory consumption and an intuitive interface.
-
-The project was designed from the ground up with a focus on stability, organization and long-term maintainability.
+Desenvolvido pela **RDA Software**.
 
 ---
 
-Main Features
+## Visão Geral
 
-Image Conversion
+O RDAConverter é um aplicativo desenvolvido para Android que permite converter imagens, vídeos, áudios e documentos entre diversos formatos, priorizando desempenho, estabilidade, organização e facilidade de uso.
 
-- PNG
-- JPG / JPEG
-- WEBP
-- SVG
-- PDF (image export)
+O projeto está sendo desenvolvido totalmente em Kotlin utilizando Jetpack Compose e segue uma arquitetura moderna, preparada para crescer durante muitos anos sem perder qualidade ou desempenho.
 
-Video Conversion
-
-- MP4
-- WEBM
-- MKV
-
-Audio Conversion
-
-- MP3
-- AAC
-- WAV
-- FLAC
-- OGG
-
-Document Conversion
-
-- PDF
-- TXT
+Mais do que um simples conversor de arquivos, o RDAConverter pretende se tornar uma central completa para gerenciamento, visualização e conversão de arquivos multimídia.
 
 ---
 
-Planned Features
+## Objetivos do Projeto
 
-- Integrated file explorer
-- Internal image viewer
-- Internal video player
-- Internal audio player
-- PDF viewer
-- Text viewer
-- Format encyclopedia
-- Technical information about files
-- Conversion statistics
-- Diagnostic screen
-- Backup and restore settings
-- Multilingual interface
-- Automatic update checking
-- Remote configuration
-- Advertising management
-- Developer mode
+O RDAConverter foi criado com os seguintes objetivos:
 
----
+• Converter arquivos com rapidez e segurança;
 
-Technologies
+• Consumir pouca memória;
 
-- Kotlin
-- Jetpack Compose
-- Material Design 3
-- AndroidX
-- Room Database
-- DataStore
-- FFmpeg (Video & Audio)
-- Native Android APIs (Images)
+• Possuir interface moderna e intuitiva;
+
+• Ser altamente configurável;
+
+• Permitir evolução contínua através de atualizações;
+
+• Disponibilizar informações técnicas sobre formatos de arquivos;
+
+• Tornar-se referência em conversão multimídia para Android.
 
 ---
 
-Project Philosophy
+## Principais Recursos
 
-The RDAConverter project follows four fundamental principles:
+### Conversão de Imagens
 
-- Performance
-- Reliability
-- Organization
-- Long-term maintainability
+• PNG
 
-Every major feature is documented before implementation.
+• JPG / JPEG
 
----
+• WEBP
 
-Documentation
+• SVG
 
-Project documentation includes:
+• BMP
 
-- Master Document
-- Architecture
-- Roadmap
-- Changelog
-- Technical Decisions
-- Security Guidelines
+• GIF
+
+• TIFF
+
+• AVIF (planejado)
 
 ---
 
-Development Status
+### Conversão de Vídeos
 
-The application is currently under active development.
+• MP4
 
-Several core architectural decisions have already been completed, while implementation is being carried out in stages.
+• MKV
+
+• WEBM
+
+• AVI
+
+• MOV
+
+• Outros formatos suportados pelo FFmpeg.
 
 ---
 
-Developer
+### Conversão de Áudios
+
+• MP3
+
+• WAV
+
+• AAC
+
+• FLAC
+
+• OGG
+
+• M4A
+
+---
+
+### Conversão de Documentos
+
+• PDF
+
+• TXT
+
+• Outros formatos futuramente.
+
+---
+
+## Recursos Planejados
+
+✔ Explorador de arquivos próprio.
+
+✔ Visualizador interno de imagens.
+
+✔ Reprodutor interno de vídeos.
+
+✔ Reprodutor interno de áudios.
+
+✔ Visualizador de PDF.
+
+✔ Visualizador de arquivos TXT.
+
+✔ Enciclopédia de formatos de arquivos.
+
+✔ Informações técnicas dos arquivos.
+
+✔ Estatísticas de utilização.
+
+✔ Sistema de diagnósticos.
+
+✔ Sistema de logs.
+
+✔ Backup das configurações.
+
+✔ Configuração remota.
+
+✔ Atualizações automáticas.
+
+✔ Múltiplos idiomas.
+
+✔ Sistema de notícias.
+
+✔ Dicas técnicas.
+
+✔ Área de aprendizado.
+
+✔ Histórico de conversões.
+
+---
+
+## Tecnologias Utilizadas
+
+• Kotlin
+
+• Jetpack Compose
+
+• Material Design 3
+
+• AndroidX
+
+• Room Database
+
+• DataStore
+
+• FFmpeg (vídeos e áudios)
+
+• APIs nativas do Android (imagens)
+
+---
+
+## Filosofia do Projeto
+
+Todo recurso implementado deve obedecer aos seguintes princípios:
+
+- Simplicidade;
+- Organização;
+- Alto desempenho;
+- Baixo consumo de memória;
+- Código limpo;
+- Facilidade de manutenção;
+- Evolução contínua.
+
+Nenhuma funcionalidade importante será implementada sem documentação prévia.
+
+---
+
+## Situação Atual
+
+O projeto encontra-se em desenvolvimento.
+
+A arquitetura principal já foi definida e a implementação será realizada em etapas, priorizando estabilidade e qualidade.
+
+---
+
+## Documentação
+
+A documentação oficial do projeto está disponível na pasta `docs/` deste repositório.
+
+Entre os principais documentos estão:
+
+- Documento Mestre;
+- Arquitetura;
+- Roadmap;
+- Histórico de versões;
+- Decisões técnicas;
+- Segurança;
+- Manual do Desenvolvedor.
+
+---
+
+## Desenvolvedor
 
 Robson Dantas de Aguiar
 
-Company:
+Empresa:
 
 RDA Software
 
-Website:
+Site oficial:
 
 https://rdasoftware.com.br
 
@@ -128,14 +218,15 @@ GitHub:
 
 https://github.com/robson2026
 
-Contact:
+E-mail:
 
 official.rdaguiar@gmail.com
 
 ---
 
-License
+## Licença
 
-Copyright © 2026 RDA Software.
+Copyright © 2026
+RDA Software
 
-All Rights Reserved.
+Todos os direitos reservados.
